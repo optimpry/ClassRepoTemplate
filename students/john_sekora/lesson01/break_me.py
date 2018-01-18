@@ -6,3 +6,12 @@ def fun_name(f):
         print('Handling run-time error:', e)
 
 fun_name(1)
+
+# TypeError: (different class variables)
+def fun_type(m):
+    try:
+        3 + '7' + m
+    except TypeError as e:
+        print('Handling run-time error:', e)
+
+fun_type(1)
