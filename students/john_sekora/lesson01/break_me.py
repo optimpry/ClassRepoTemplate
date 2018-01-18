@@ -26,3 +26,12 @@ def fun_syntax(name):
         print('Handling run-time error:', e)
 
 fun_syntax("Steve")
+
+# AttributeError: (I don't know what this is)
+def fun_attribute(d):
+    try:
+
+    except AttributeError as e:
+        print('Handling run-time error:', e)
+
+fun_attribute(1)
